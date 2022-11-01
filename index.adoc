@@ -1,0 +1,16 @@
+---
+layout: astra 
+sidebar: sidebar 
+permalink: index.html 
+lead: NetApp Cloud Volumes Service for AWS is a cloud-native file service that provides NAS volumes over NFS and SMB with all-flash performance. This documentation describes how to manage Cloud Volumes Service for AWS by using NetApp BlueXP. 
+summary: NetApp Cloud Volumes Service für AWS ist ein Cloud-nativer Fileservice, der NAS-Volumes über NFS und SMB mit All-Flash-Performance bereitstellt. In dieser Dokumentation wird beschrieben, wie Sie Cloud Volumes Service für AWS mithilfe von NetApp BlueXP managen. 
+---
+= Dokumentation zu Cloud Volumes Service für AWS
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+

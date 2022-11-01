@@ -1,0 +1,68 @@
+---
+settings:
+  name: Cloud Volumes Service for AWS
+  platform: cloud
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  langs: de-de,us-en,ja-jp,zh-cn,zh-tw,ko-kr,fr-fr
+sidebar:
+  entries:
+  - title: Cloud Volumes Service für AWS - Dokumentation
+    url: "/index.html"
+  - title: Versionshinweise
+    url: "/whats-new.html"
+  - title: Los geht's
+    entries:
+    - title: Weitere Informationen zu Cloud Volumes Service für AWS
+      url: "/concept-cvs-aws.html"
+  - title: Verwenden Sie Cloud Volumes Service für AWS
+    entries:
+    - title: Implementieren und Managen von Cloud Volumes
+      url: "/task-manage-cvs-aws.html"
+    - title: Managen von Cloud Volumes Snapshots
+      url: "/task-manage-cloud-volumes-snapshots.html"
+  - title: Konzepte
+    entries:
+    - title: Service Level und zugewiesene Kapazität
+      url: "/reference-cvs-service-levels-and-quotas.html"
+    - title: Einstellungen der AWS Sicherheitsgruppen für Windows AD Server
+      url: "/reference-security-groups-windows-ad-servers.html"
+  - title: Wissen und Support
+    entries:
+    - title: Für den Support anmelden
+      url: "/task-support-registration.html"
+    - title: Holen Sie sich Hilfe
+      url: "/task-get-help.html"
+  - title: Rechtliche Hinweise
+    url: "/legal-notices.html"
+homepage:
+  tiles:
+  - title: Los geht's
+    links:
+    - title: Weitere Informationen zu Cloud Volumes Service für AWS
+      url: concept-cvs-aws.html
+    - title: Was ist neu
+      url: whats-new.html
+  - title: Verwenden Sie Cloud Volumes Service für AWS
+    links:
+    - title: Cloud Volumes erstellen
+      url: task-manage-cvs-aws.html#create-cloud-volumes
+    - title: Management vorhandener Volumes
+      url: task-manage-cvs-aws.html#managing-existing-volumes
+    - title: Managen von Cloud Volumes Snapshots
+      url: task-manage-cloud-volumes-snapshots.html
+  - title: Blogs Community
+    links:
+    - title: NetApp Community
+      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
+    - title: BlueXP-Blog
+      url: https://cloud.netapp.com/blog
+    - title: Cloud-Webinare
+      url: https://cloud.netapp.com/events
+product-family:
+  name: BlueXP
+  repo: cloud-manager-family
+  sidebar_label: Alle BlueXP-Dokumentationen

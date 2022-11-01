@@ -1,0 +1,81 @@
+---
+sidebar: sidebar 
+permalink: concept-cvs-aws.html 
+keywords: cloud volumes service for aws, cloud volumes, cloud volumes service subscription, access key, secret key 
+summary: NetApp Cloud Volumes Service für AWS ist ein Cloud-nativer Fileservice, der NAS-Volumes über NFS und SMB mit All-Flash-Performance bereitstellt. Dieser Service ermöglicht die Ausführung aller Workloads, auch älterer Applikationen, in der AWS Cloud. 
+---
+= Weitere Informationen zu Cloud Volumes Service für AWS
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+NetApp Cloud Volumes Service für AWS ist ein Cloud-nativer Fileservice, der NAS-Volumes über NFS und SMB mit All-Flash-Performance bereitstellt. Dieser Service ermöglicht die Ausführung aller Workloads, auch älterer Applikationen, in der AWS Cloud.
+
+
+NOTE: Mit der Einführung von link:https://docs.aws.amazon.com/fsx/latest/ONTAPGuide/what-is-fsx-ontap.html["Amazon FSX für ONTAP"^]In BlueXP (früher Cloud Manager) können Sie keine neuen Cloud Volumes Service für AWS-Arbeitsumgebungen mehr erstellen. Wenn Sie zuvor BlueXP jedoch Cloud Volumes Service für AWS Umgebungen hinzugefügt haben, können Sie weiterhin Volumes erstellen und managen.
+
+
+
+== Vorteile der Nutzung von Cloud Volumes Service für AWS
+
+Cloud Volumes Service für AWS bietet folgende Vorteile:
+
+* Vollständig gemanagter Service – Sie müssen daher keine Storage-Geräte konfigurieren oder managen
+* Unterstützung für die NAS-Protokolle NFSv3 und NFSv4.1 sowie SMB 3.0 und 3.1.1
+* Sicherer Zugriff auf Linux- und Windows Elastic Container Service (ECS)-Instanzen mit Unterstützung wie:
++
+** Amazon Linux 2, Red hat Enterprise Linux 7.5, SLES 12 SP3 und Ubuntu 16.04 LTS
+** Windows Server 2008 R2, Windows Server 2012 R2 und Windows Server 2016
+
+
+* Optionen für Pakete und Pay-as-you-go-Preise
+
+
+
+
+== Kosten
+
+Von der Cloud Volumes Service für AWS erstellte Volumes werden auf Grundlage Ihres Abonnements für den Service und nicht über BlueXP abgerechnet.
+
+Es sind keine Kosten für die Entdeckung einer Region oder eines Volumens von Cloud Volumes Service für AWS mit BlueXP erforderlich.
+
+
+
+== Schnellstart
+
+Führen Sie die folgenden Schritte durch, oder rufen Sie die nächsten Abschnitte auf, um weitere Einzelheiten zu erfahren.
+
+[role="quick-margin-para"]
+Sie müssen AWS für Cloud Volumes Service einrichten und einen der abonniert haben https://aws.amazon.com/marketplace/search/results?x=0&y=0&searchTerms=netapp+cloud+volumes+service["NetApp Cloud Volumes Service-Angebote im AWS Marketplace"^] Zudem ist eine vorhandene CVS für AWS Arbeitsumgebung in BlueXP konfiguriert, um Volumes zu erstellen und zu managen.
+
+[role="quick-margin-para"]
+Über eine vorhandene CVS für AWS Arbeitsumgebung können Sie Cloud Volumes für vorhandene CVS für AWS Abonnements mithilfe von BlueXP erstellen, einbinden und managen.
+
+
+
+== Hilfe wird abgerufen
+
+Verwenden Sie den BlueXP-Chat für allgemeine Servicefragen.
+
+Bei technischen Support-Problemen im Zusammenhang mit Ihren Cloud Volumes verwenden Sie die 20-stellige Seriennummer „930“ auf der Registerkarte „Support“ der Cloud Volumes Service-Benutzeroberfläche. Verwenden Sie diese Support-ID, wenn Sie ein Web-Ticket öffnen oder Support-Anfrage stellen. Achten Sie darauf, Ihre Cloud Volumes Service Seriennummer für Support über die Cloud Volumes Service Benutzeroberfläche zu aktivieren. https://docs.netapp.com/us-en/cloud_volumes/aws/task_activating_support_entitlement.html["Diese Schritte werden hier erläutert"^].
+
+
+
+== Einschränkungen
+
+* BlueXP unterstützt bei der Verwendung von Cloud Volumes Service Volumes keine Datenreplizierung zwischen den Arbeitsumgebungen.
+* Das Entfernen des Cloud Volumes Service für AWS Abonnements aus BlueXP wird nicht unterstützt. Dies ist nur über die Schnittstelle Cloud Volumes Service für AWS möglich.
+
+
+
+
+== Weiterführende Links
+
+* https://cloud.netapp.com/cloud-volumes-service-for-aws["NetApp BlueXP: Cloud Volumes Service für AWS"^]
+* https://docs.netapp.com/us-en/cloud_volumes/aws/["NetApp Cloud Volumes Service für AWS – Dokumentation"^]
+
